@@ -1,0 +1,125 @@
+/* formatting for whole page */
+* {
+    	box-sizing: border-box;
+}
+/* background colour*/
+body {
+	background-color: #A8D0E6;
+}
+
+/* header formatting */
+#header {
+    background-color: #24305E;
+	border: 2px black solid;
+	text-align: center;
+}
+
+/* navigation bar formatting */
+#navbar {
+    background-color: #F8E9A1;
+	border: 1px black solid;
+	overflow: hidden;
+}
+
+/* links to the different pages */
+a {
+    display: block;
+    padding: 20px;
+    color: black;
+    width: 33%;
+    float: left;
+	text-align: center;
+}
+
+/* header text formatting */
+h1 {
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 300%;
+}
+
+/* header for various calculators */
+h2 {
+	color: white;
+}
+
+/* header for the answer placement */
+h3 {
+	color: white;
+}
+
+/* created by text */
+l {
+    display: block;
+    padding: 5px;
+    color: black;
+    width: 25%;
+}
+
+/* basic text and answers colour*/
+p {
+	color: white;
+}
+
+
+/* created by label */
+#label {
+    background-color: #F8E9A1;
+	border: 2px black solid;
+	overflow: hidden;
+}
+
+/* formatting for definition of prime factoring and factoring includes column1 also */
+#column {
+    	background-color: #F76C6C;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: left;
+    	color: black;
+    	text-align: center;
+    	padding-bottom: 20px;
+}
+
+
+
+#column1 {
+    	background-color: #F76C6C;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: left;
+    	color: black;
+    	text-align: center;
+    	padding-bottom: 20px;
+}
+
+/* formatting for answer box */
+#column2 {
+    	background-color: #374785;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: center;
+    	color: white;
+    	text-align: center;
+    	padding-bottom: 10px;
+	    margin-left: auto;
+        margin-right: auto;
+}
+
+/* formatting for the picture */
+#picture1 {
+	width: 50%;
+	margin: auto;
+}
+/* mroe formatting for the picture */
+img {
+	width: 100%;
+}
+
+/* footer formatting */
+#footer {
+	background-color: #24305E;
+	color: white;
+	border: 2px black solid;
+	padding: 0px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src = "gcf.js"> </script>
+<link rel = "stylesheet" href = "gcfStyles.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sammy's Page</title>
+</head>
+<body>
+
+    <!--// header-->
+    <div id = "header">
+        <h1> Greatest Common Divisor and Lowest Common Multiple Calculator</h1>
+    </div>
+
+    <!--// navbar to navigate to homepage and other calculators-->
+    <div id = "navbar">
+        <a href = "homepageWebsite.html"> Homepage </a>
+		<a href = "factorizationWebsite.html"> Prime Factorization Calculator</a>
+		<a href = "mathWebiste.html"> Prime Number Calculator </a>
+    </div>
+
+	<!--row with definition of factoring and prime factorization-->
+    <div id = "row">
+        <div id = "column">
+			<h2> What is the Greatest Common Divisor </h2>
+				<p id = "G"> GCD... </p>
+				<button onclick = "defGCD()"> Click for the Definition of a GCD</button>
+		</div>
+
+		<div id = "column1">
+			<h2> What is a Lowest Common Multiple? </h2>
+				<p id = "L"> LCM... </p>
+				<button onclick = "defLCM()"> Click for Definition of a LCM </button>
+		</div>
+	</div>
+
+
+    <!-- row where we accept user input-->
+	<div id = "row1">
+		<div id = "column2">
+			<h3> Please Enter Two Numbers </h3> <br>
+			<input type "text" id="num" value = "">
+            <input type "text" id="num1" value = "">
+		</div>
+	</div>
+
+    <!-- row with GCD and LCM answers -->
+	<div id = "row2">
+		<div id = "column3">
+			<h3> Greatest Common Divisor </h3> <br>
+			    <button onclick = "GCD()"> Enter </button>
+			    <p id = "answer"> GCD Placement </p> <br>
+		</div>
+
+		<div id = "column4">
+			<h3> Lowest Common Multiple </h3> <br>
+			    <button onclick = "LCM()"> Enter </button>
+			    <p id = "answer1"> LCM Placement </p> <br>
+		</div>
+	</div>
+
+	<!--row with an example of factors and prime factoring-->
+	<div id = "row4">
+		<div id = "picture">
+			<img src = "Images/GCD.png" alt = "Cannot Find">
+		</div>
+
+		<div id = "picture1">
+			<img src = "Images/LCM.png" alt = "Cannot Find">
+		</div>
+	</div>
+
+
+	<!--// created by label thing-->
+	<div id = "label">
+		<l> Created by: Sammy Cohoe </l>
+	</div>
+
+
+	<!--footer-->
+	<div id = "footer">
+		<h1> Thank you for using the calculator! </h1>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!Doctype html>
+
+<html>
+<!-- import the js and css files -->
+<script src = "math.js"> </script>
+<link rel = "stylesheet" href = "mathStyles.css">
+
+	<head><meta charset="UTF-8">
+        	<title>Sammy's Page</title>
+    	</head>
+
+	<body>
+	
+	<!-- header -->
+	<div id = "header">
+		<h1> Prime Number Calculator </h1>
+	</div>
+
+
+	<!-- navbar to navigate to homepage and other calculators -->
+	<div id = "navbar">
+		<a href = "homepageWebsite.html"> Homepage </a>
+		<a href = "gcfWebsite.html"> GCD and LCM Calculator</a>
+		<a href = "factorizationWebsite.html"> Prime Factorization Calculator</a>
+	</div>
+
+	<!-- row with definition for a prime number and composite number -->
+	<div id = "row"> 
+		<div id = "column">
+			<h2> What is a Prime Number? </h2>
+				<p id = "P"> Prime... </p>
+				<button onclick = "defPrime()"> Click for Definition of a Prime Number </button>
+		</div>
+
+		<div id = "column">
+			<h2> What is a Composite Number? </h2>
+				<p id = "C"> Composite... </p>
+				<button onclick = "defComposite()"> Click for Definition of a Composite Number </button>
+		</div>
+	</div>
+
+	<!-- row with the calculator-->
+	<div id = "row"> 
+		<div id = "column2">
+			<h3> Please Enter a Number </h3> <br>
+			<input type "text" id="num" value = "">
+			<button onclick = "isPrime()"> Enter </button> 
+			<p id = "answer"> Answer Placement </p> <br>
+		</div>
+	</div>
+
+	<!-- row where we display the answers -->
+	<div id = "row"> 
+		<div id = "column3">
+			<h3> The Divsors for Your Number are: </h3>
+			<g id = "divisors"> Divisors Placement </g> <br>
+			<button onclick = "divisorsAre()"> Click to Reveal Divisors </button> <br>
+		</div>
+	</div>	
+	
+	<!-- row with a picture -->
+	<div id = "row1">
+		<div id = "picture">
+		<img src = "Images/PrimeNumbers.png" alt = "Cannot Find">
+		</div>
+	</div>
+
+
+	<!-- label created by thing -->
+	<div id = "label">
+		<l> Created by: Sammy Cohoe </l>
+	</div>
+
+	<!-- footer -->
+	<div id = "footer">
+		<h1> Thank you for using the calculator! </h1>
+	</div>
+
+
+	</body>
+
+</html>

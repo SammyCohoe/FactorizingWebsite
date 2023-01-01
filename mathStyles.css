@@ -1,0 +1,142 @@
+/* formatting for entire website*/
+* {
+    	box-sizing: border-box;
+}
+
+/* background colour */
+body {
+	background-color: #A8D0E6;
+}
+
+/* header formatting */
+#header {
+    	background-color: #24305E;
+	border: 2px black solid;
+	text-align: center;
+}
+
+/* navigation bar formatting */
+#navbar {
+    	background-color: #F8E9A1;
+	border: 1px black solid;
+	overflow: hidden;
+}
+
+/* links to the different pages */
+a {
+    	display: block;
+    	padding: 20px;
+    	color: black;
+    	width: 33%;
+    	float: left;
+	text-align: center;
+}
+
+/* header text formatting */
+h1 {
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 300%;
+}
+/* header for definitions of prime and composite numbers */
+h2 {
+	color: white;
+}
+/* header for answer and prompting the user */
+h3 {
+	color: white;
+}
+
+
+/* label text formatting */
+l {
+    	display: block;
+    	padding: 5px;
+    	color: black;
+    	width: 25%;
+}
+
+/* basic text and answers colour*/
+p {
+	color: white;
+}
+/* divisors answer placement */
+g {
+	color: white;
+	font-size: 110%;
+	padding-top: 20px;
+}
+
+/* formatting for the label */
+#label {
+    	background-color: #F8E9A1;
+	border: 2px black solid;
+	overflow: hidden;
+}
+
+
+
+/* formatting for description of prime and composite number boxes*/
+#column {
+    	background-color: #F76C6C;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: left;
+    	color: black;
+    	text-align: center;
+    	padding-bottom: 20px;
+}
+
+
+/* formatting for actual calculator */
+#column2 {
+    	background-color: #374785;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: center;
+    	color: black;
+    	text-align: center;
+	margin-left: auto;
+    	margin-right: auto;
+}
+
+
+/* formatting for answer box */
+#column3 {
+    	background-color: #374785;
+    	border: 2px black solid;
+    	width: 50%;
+    	float: center;
+    	color: black;
+    	text-align: center;
+    	padding-bottom: 10px;
+	margin-left: auto;
+        margin-right: auto;
+}
+
+/* picture formatting */
+#picture {
+	width: 50%;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+/*^^^^^^^^^^^^^^^^^^^^*/
+/* footer formatting */
+#footer {
+	background-color: #24305E;
+	color: white;
+	border: 2px black solid;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+

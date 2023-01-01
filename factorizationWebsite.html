@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src = "factorization.js"> </script>
+<link rel = "stylesheet" href = "factorizationStyles.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sammy's Page</title>
+</head>
+<body>
+
+    <!--// header-->
+    <div id = "header">
+        <h1> Prime Factorization Calculator</h1>
+    </div>
+
+    <!--// navbar to navigate to homepage and other calculators-->
+    <div id = "navbar">
+        <a href = "homepageWebsite.html"> Homepage </a>
+		<a href = "gcfWebsite.html"> GCD and LCM Calculator</a>
+		<a href = "mathWebiste.html"> Prime Number Calculator </a>
+    </div>
+
+	<!--row with definition of factoring and prime factorization-->
+    <div id = "row">
+        <div id = "column">
+			<h2> What is Factoring? </h2>
+				<p id = "F"> Factoring... </p>
+				<button onclick = "defFactoring()"> Click for the Definition of Factoring </button>
+		</div>
+
+		<div id = "column1">
+			<h2> What is Prime Factorization? </h2>
+				<p id = "PF"> Prime Factorization... </p>
+				<button onclick = "defFactorization()"> Click for Definition of Prime Factorization </button>
+		</div>
+	</div>
+
+
+    <!-- row with the actual calculator -->
+	<div id = "row1">
+		<div id = "column2">
+			<h3> Please Enter a Number </h3> <br>
+			<input type "text" id="num" value = "">
+			<button onclick = "primeFactorization()"> Enter </button>
+			<p id = "answer"> Answer Placement </p> <br>
+		</div>
+	</div>
+
+	<!--row with an example of factors and prime factoring-->
+	<div id = "row2">
+		<div id = "picture1">
+			<img src = "Images/FactorExample.png" alt = "Cannot Find">
+		</div>
+	</div>
+
+
+	<!--// created by label thing-->
+	<div id = "label">
+		<l> Created by: Sammy Cohoe </l>
+	</div>
+
+
+	<!--footer-->
+	<div id = "footer">
+		<h1> Thank you for using the calculator! </h1>
+	</div>
+
+</body>
+</html>
